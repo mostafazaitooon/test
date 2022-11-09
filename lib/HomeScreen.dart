@@ -7,10 +7,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-title: Text('image'),
+        title: Text('image'),
       ),
-
+      body: Column(
+        children: [
+          Image.asset('images/on_boarding_40.png'),
+        ],
+      ),
     );
-//d
+
   }
 }
